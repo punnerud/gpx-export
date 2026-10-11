@@ -47,6 +47,7 @@
     <li><a href="#strava">Strava login</a></li>
     <li><a href="#health">Apple Health</a></li>
     <li><a href="#purchases">Subscriptions</a></li>
+    <li><a href="#notifications">Notifications</a></li>
     <li><a href="#device">On your iPhone</a></li>
     <li><a href="#exports">Exports &amp; AI prompt</a></li>
     <li><a href="#network">Network</a></li>
@@ -87,6 +88,14 @@
     <li>Apple's handling of purchase data is covered by <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. You manage or cancel the subscription in Settings → [your name] → Subscriptions.</li>
   </ul>
 
+  <h2 id="notifications">Notifications (trial reminders)</h2>
+  <ul>
+    <li>If you start a free trial of GPX Export Pro, the app can remind you before it ends: 3 days and 1 day before the trial ends.</li>
+    <li>These are <strong>local notifications</strong>, scheduled on your iPhone with iOS. There is no push server, no device token is created or sent, and no data leaves your iPhone. The only information used is the trial end date that StoreKit reports on your device.</li>
+    <li>The app asks for permission only right after you start a trial, never when you open the app. If you say no, the app works the same, just without reminders.</li>
+    <li>Reminders are removed when you cancel, when the trial ends or when your subscription changes. You can turn notifications off at any time in Settings → Notifications → GPX Export.</li>
+  </ul>
+
   <h2 id="device">Data stored on your iPhone</h2>
   <p>These values are stored only on your device, in the app's own storage, and never sent to us:</p>
   <ul>
@@ -95,6 +104,7 @@
     <li>Small app settings: whether you are logged in, how many files you have exported (to time Apple's rating prompt) and when the app last checked for an update of its Strava reader.</li>
     <li>A downloaded copy of the app's Strava reader script (see <a href="#network">Network connections</a>).</li>
     <li>The Strava session cookies described above.</li>
+    <li>Any trial reminders that are scheduled (see <a href="#notifications">Notifications</a>).</li>
   </ul>
 
   <h2 id="exports">Exports and the AI prompt</h2>
