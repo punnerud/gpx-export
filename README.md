@@ -1,14 +1,14 @@
 # Strava to Data: GPX & Stats – website
 
 Static website for the iPhone app **Strava to Data: GPX & Stats**, served with GitHub Pages at
-**https://punnerud.github.io/gpx-export/**.
+**https://punnerud.github.io/strava-to-data/**.
 
 | Page | URL |
 |---|---|
-| Home (marketing, pricing, FAQ) | https://punnerud.github.io/gpx-export/ |
-| Privacy policy | https://punnerud.github.io/gpx-export/privacy.html |
-| Support | https://punnerud.github.io/gpx-export/support.html |
-| Terms of use | https://punnerud.github.io/gpx-export/terms.html |
+| Home (marketing, pricing, FAQ) | https://punnerud.github.io/strava-to-data/ |
+| Privacy policy | https://punnerud.github.io/strava-to-data/privacy.html |
+| Support | https://punnerud.github.io/strava-to-data/support.html |
+| Terms of use | https://punnerud.github.io/strava-to-data/terms.html |
 
 App Store: https://apps.apple.com/app/id6741417217
 
