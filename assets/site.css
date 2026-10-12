@@ -87,6 +87,14 @@ p { margin: 0 0 1em; }
 }
 .nav .nav-cta:hover { background: rgba(255, 255, 255, 0.22); text-decoration: none; }
 @media (max-width: 720px) { .nav .hide-sm { display: none; } }
+.brand span, .nav a { white-space: nowrap; }
+@media (max-width: 360px) {
+  .site-header .wrap { gap: 10px; }
+  .brand { gap: 8px; font-size: 15px; }
+  .brand img { width: 30px; height: 30px; border-radius: 7px; }
+  .nav { font-size: 14px; }
+  .nav .nav-cta { padding: 7px 12px; }
+}
 
 /* Light header for the document pages */
 .doc-header { border-bottom: 1px solid var(--line); background: var(--surface); }

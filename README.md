@@ -1,6 +1,6 @@
-# GPX Export & Stats for Strava – website
+# Strava to Data: GPX & Stats – website
 
-Static website for the iPhone app **GPX Export & Stats for Strava**, served with GitHub Pages at
+Static website for the iPhone app **Strava to Data: GPX & Stats**, served with GitHub Pages at
 **https://punnerud.github.io/gpx-export/**.
 
 | Page | URL |
@@ -16,7 +16,7 @@ App Store: https://apps.apple.com/app/id6741417217
 
 - Plain HTML and one stylesheet (`assets/site.css`). No JavaScript, no build step, no external fonts or CDNs.
 - `assets/shots/` – app screenshots, 600 px wide, WebP with JPG fallback.
-- `assets/icon.png`, `assets/favicon.png`, `favicon.ico`, `apple-touch-icon.png`, `assets/og-image.jpg` – icons and the social preview image.
+- `assets/icon.png`, `assets/favicon.png`, `favicon.ico`, `apple-touch-icon.png`, `assets/og-image.jpg` – icons and the social preview image (made with `strava_appstore_media/source/og_image.py`).
 - `.nojekyll` – serve files as-is.
 
 ## Local preview
