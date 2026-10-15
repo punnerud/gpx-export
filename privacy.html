@@ -73,7 +73,7 @@
 
   <h2 id="health">Apple Health (HealthKit)</h2>
   <ul>
-    <li>The app asks for <strong>read-only</strong> access to <strong>heart rate</strong>, and only when you tap <em>Get heart rate from Apple Health</em> on an activity that has no heart rate.</li>
+    <li>The app asks for <strong>read-only</strong> access to <strong>heart rate</strong>, and only when you tap <em>Connect Apple Health</em> in <em>Your profile</em> or <em>Get heart rate from Apple Health</em> on an activity that has no heart rate.</li>
     <li>It reads the heart rate recorded during that activity's time and uses it only for the analysis on your iPhone (heart rate zones, training load and similar).</li>
     <li>Heart rate from Apple Health is kept in memory for the open activity only. It is not saved, not added to GPX or CSV exports, not stored in iCloud, and never sent to the developer or anyone else.</li>
     <li>The app never writes to Apple Health. Health data is never used for advertising, marketing or data mining, never sold, and never shared with third parties.</li>
@@ -110,7 +110,7 @@
   <h2 id="exports">Exports and the AI prompt</h2>
   <ul>
     <li>GPX and CSV files are created on your iPhone and go only where you choose (Files, copy, or the share sheet).</li>
-    <li>"AI training analysis" builds a text prompt from the activity. Only if you tap <em>Copy Prompt</em> is the text placed on your clipboard. It contains your activity data, which can include heart rate (including heart rate read from Apple Health). You decide where to paste it, and that service's own privacy policy then applies. The app itself never sends anything to an AI service.</li>
+    <li>"AI training analysis" builds a text prompt from the activity. Only if you tap <em>Copy Prompt</em> is the text placed on your clipboard. It contains your activity data, which can include heart rate from Strava. Heart rate read from Apple Health is left out of the prompt. You decide where to paste it, and that service's own privacy policy then applies. The app itself never sends anything to an AI service.</li>
   </ul>
 
   <h2 id="network">Network connections</h2>
